@@ -1,4 +1,11 @@
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Navigation } from "@/components/navigation";
 import Link from "next/link";
@@ -8,11 +15,11 @@ interface Project {
   title: string;
   description: string;
   tech: string[];
-  link: string;
+  link?: string;
 }
 
 export default function ProjectsPage() {
-  const projects: Project[] = projectsData;
+  const projects: Project[] = projectsData as Project[];
 
   return (
     <>
@@ -25,7 +32,8 @@ export default function ProjectsPage() {
               My <span className="text-primary">Projects</span>
             </h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              A collection of work I&apos;ve built and contributed to. Each project represents a unique challenge and learning experience.
+              A collection of work I&apos;ve built and contributed to. Each
+              project represents a unique challenge and learning experience.
             </p>
           </div>
 
@@ -56,7 +64,7 @@ export default function ProjectsPage() {
                 </CardContent>
                 <CardFooter>
                   <Link
-                    href={project.link}
+                    href={project.link ? project.link : "#"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center h-7 px-2.5 rounded-lg border border-border bg-background text-sm font-medium transition-colors group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary"
