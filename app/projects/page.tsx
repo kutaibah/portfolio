@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Navigation } from "@/components/navigation";
 import Link from "next/link";
 import projectsData from "@/data/projects.json";
+import { Separator } from "@/components/ui/separator";
 
 interface Project {
   title: string;
@@ -62,6 +63,7 @@ export default function ProjectsPage() {
                     ))}
                   </div>
                 </CardContent>
+                <Separator className=" w-auto mt-auto" />
                 {project.link && (
                   <CardFooter>
                     <Link

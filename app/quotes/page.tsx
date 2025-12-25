@@ -45,7 +45,7 @@ export default function QuotesPage() {
                 style={{ animationDelay: `${(index + 1) * 100}ms` }}
               >
                 {/* Decorative quote mark */}
-                <div className="absolute top-4 right-4 text-6xl font-serif text-primary/10 leading-none select-none">
+                <div className="absolute top-4 right-4 text-6xl font-serif text-primary leading-none select-none">
                   &ldquo;
                 </div>
 
@@ -61,7 +61,7 @@ export default function QuotesPage() {
                   </blockquote>
                 </CardContent>
 
-                <Separator className="mx-6 w-auto mt-auto" />
+                <Separator className=" w-auto mt-auto" />
 
                 <CardFooter className="pt-4 flex items-center justify-between">
                   <p className="text-sm text-muted-foreground font-medium">
