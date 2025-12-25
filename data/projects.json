@@ -26,17 +26,18 @@
     ],
     "link": "https://zefi.com"
   },
-  {
-    "title": "Sanad.com.tr",
-    "description": "A wordpress portfolio for a consulting company",
-    "tech": ["Wordpress", "PHP", "CSS", "HTML"],
-    "link": "https://sanad.com.tr"
-  },
+
   {
     "title": "Markcognition AI",
     "description": "A AI-powered platform for customer support and sales",
     "tech": ["NodeJS", "Express", "AWS ", "Facebook graph API", "OpenAI API"],
     "link": "https://markcognition.ai"
+  },
+  {
+    "title": "Miftah media",
+    "description": "A wordpress portfolio for a media company",
+    "tech": ["Wordpress", "PHP", "CSS", "HTML"],
+    "link": "https://miftah.media"
   },
   {
     "title": "BlueData",
