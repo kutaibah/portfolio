@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -35,23 +34,18 @@ export default function Home() {
 
         {/* Navigation buttons */}
         <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-in-up [--delay:1000ms]">
-          <Button
-            size="lg"
-            nativeButton={false}
-            render={<Link href="/projects" />}
-            className="px-8 transition-transform hover:scale-105"
+          <Link
+            href="/projects"
+            className="inline-flex items-center justify-center h-9 px-8 rounded-lg bg-primary text-primary-foreground font-medium text-sm transition-transform hover:scale-105 hover:bg-primary/90"
           >
             View Projects
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            nativeButton={false}
-            render={<Link href="/contact" />}
-            className="px-8 transition-transform hover:scale-105"
+          </Link>
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center h-9 px-8 rounded-lg border border-border bg-background text-foreground font-medium text-sm transition-transform hover:scale-105 hover:bg-muted"
           >
             Get in Touch
-          </Button>
+          </Link>
         </div>
       </div>
     </main>

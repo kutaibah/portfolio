@@ -1,6 +1,5 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Navigation } from "@/components/navigation";
 import Link from "next/link";
 import projectsData from "@/data/projects.json";
@@ -56,15 +55,14 @@ export default function ProjectsPage() {
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    nativeButton={false}
-                    render={<Link href={project.link} target="_blank" rel="noopener noreferrer" />}
-                    className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                  <Link
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center h-7 px-2.5 rounded-lg border border-border bg-background text-sm font-medium transition-colors group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary"
                   >
                     View Project →
-                  </Button>
+                  </Link>
                 </CardFooter>
               </Card>
             ))}
@@ -74,4 +72,3 @@ export default function ProjectsPage() {
     </>
   );
 }
-
