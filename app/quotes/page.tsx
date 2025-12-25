@@ -41,7 +41,7 @@ export default function QuotesPage() {
             {quotes.map((quote, index) => (
               <Card
                 key={quote.id}
-                className="group relative overflow-hidden hover:ring-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 animate-fade-in-up"
+                className="group relative overflow-hidden hover:ring-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 animate-fade-in-up flex flex-col"
                 style={{ animationDelay: `${(index + 1) * 100}ms` }}
               >
                 {/* Decorative quote mark */}
@@ -61,7 +61,7 @@ export default function QuotesPage() {
                   </blockquote>
                 </CardContent>
 
-                <Separator className="mx-6 w-auto" />
+                <Separator className="mx-6 w-auto mt-auto" />
 
                 <CardFooter className="pt-4 flex items-center justify-between">
                   <p className="text-sm text-muted-foreground font-medium">
