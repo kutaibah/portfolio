@@ -34,8 +34,8 @@
   },
   {
     "title": "Markcognition AI",
-    "description": "A AI-powered platform for creating and managing marketing campaigns",
-    "tech": ["NodeJS", "Express", "AWS "],
+    "description": "A AI-powered platform for customer support and sales",
+    "tech": ["NodeJS", "Express", "AWS ", "Facebook graph API", "OpenAI API"],
     "link": "https://markcognition.ai"
   },
   {
