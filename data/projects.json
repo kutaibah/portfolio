@@ -1,0 +1,27 @@
+[
+  {
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
+    "tech": ["Next.js", "TypeScript", "Prisma", "Stripe"],
+    "link": "https://github.com/kutaibah/ecommerce"
+  },
+  {
+    "title": "Task Management App",
+    "description": "Collaborative task management tool with drag-and-drop interface, team features, and real-time updates.",
+    "tech": ["React", "Node.js", "MongoDB", "Socket.io"],
+    "link": "https://github.com/kutaibah/taskflow"
+  },
+  {
+    "title": "Weather Dashboard",
+    "description": "Beautiful weather application with location-based forecasts, interactive maps, and weather alerts.",
+    "tech": ["Vue.js", "OpenWeather API", "Chart.js"],
+    "link": "https://github.com/kutaibah/weather"
+  },
+  {
+    "title": "Portfolio Generator",
+    "description": "CLI tool that generates customizable portfolio websites from markdown files and configuration.",
+    "tech": ["Python", "Jinja2", "Click"],
+    "link": "https://github.com/kutaibah/portfolio-gen"
+  }
+]
+
