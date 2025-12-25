@@ -41,6 +41,12 @@ export default function Home() {
             View Projects
           </Link>
           <Link
+            href="/quotes"
+            className="inline-flex items-center justify-center h-9 px-8 rounded-lg border border-border bg-background text-foreground font-medium text-sm transition-transform hover:scale-105 hover:bg-muted"
+          >
+            View Quotes
+          </Link>
+          <Link
             href="/contact"
             className="inline-flex items-center justify-center h-9 px-8 rounded-lg border border-border bg-background text-foreground font-medium text-sm transition-transform hover:scale-105 hover:bg-muted"
           >
