@@ -32,7 +32,7 @@
   },
   {
     "title": "RegistryChain",
-    "description": "Computable entities registry system",
+    "description": "Registry protocol allows for both formation and lifecycle management. Since your legal entity is blockchain-native (borderless, permissionless, and its constitution reflected on a smart contract), you also benefit from seamlessly integrated second-order applications and services like governance, tokenization, DeFi along side traditional corporate services such as bank account openings, payment processing and more",
     "tech": [
       "NextJS",
       "Typescript",
