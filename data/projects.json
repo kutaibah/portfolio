@@ -26,6 +26,12 @@
     ],
     "link": "https://zefi.com"
   },
+  {
+    "title": "Al seeraj for Development and Healthcare",
+    "description": "A website for a development and healthcare non-profit organization",
+    "tech": ["NextJs", "Tailwind CSS", "shadcn/ui"],
+    "link": "https://alseeraj.net"
+  },
 
   {
     "title": "Markcognition AI",

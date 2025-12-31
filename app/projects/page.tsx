@@ -63,21 +63,19 @@ export default function ProjectsPage() {
                     ))}
                   </div>
                 </CardContent>
-                <div className={`mt-auto ${!project.link ? "pb-4" : ""}`}>
-                  <Separator className="w-auto" />
-                  {project.link && (
-                    <CardFooter>
-                      <Link
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center h-7 px-2.5 rounded-lg border border-border bg-background text-sm font-medium transition-colors group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary"
-                      >
-                        View Project →
-                      </Link>
-                    </CardFooter>
-                  )}
-                </div>
+                <Separator className=" w-auto" />
+                {project.link && (
+                  <CardFooter>
+                    <Link
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center h-7 px-2.5 rounded-lg border border-border bg-background text-sm font-medium transition-colors group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary"
+                    >
+                      View Project →
+                    </Link>
+                  </CardFooter>
+                )}
               </Card>
             ))}
           </div>
